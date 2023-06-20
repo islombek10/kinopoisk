@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+}
+.navbar{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+.navbar__main{
+    /* border: 1px solid green; */
+    display: flex;
+    height:45px;
+    width: 1200px;
+
+}
+.navbar__list1{
+    /* border: 1px solid blue; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__list2{
+    /* border: 1px solid blue; */
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__list2 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.navbar__list3{
+    /* border: 1px solid blue; */
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__list3 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.navbar__list4{
+    /* border: 1px solid blue;  */
+    width: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__list4 input{
+    background: rgb(59, 58, 58);
+    width: 100%;
+    height: 25px;
+    border-radius: 7px;
+    color: rgb(175, 175, 175);
+}
+.navbar__list5{
+    /* border: 1px solid blue; */
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__list1 img{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+.navbar__list6{
+    /* border: 1px solid blue; */
+    min-height: 800px;
+    width: 80%;
+    margin-left: 150px;
+    display: flex;
+    margin-top: 30px;
+}
+.navbar__list6 video{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 160px;
+    margin-top: 17px;
+}
+.navbar__list2 h4{
+color: rgb(175, 175, 175);
+}
+.navbar__list3 h5{
+color: rgb(175, 175, 175);
+}
+.aquaman{
+    /* border: 1px solid red; */
+    width: 27%;
+}
+.info__kino{
+    /* border: 1px solid rgb(3, 26, 142); */
+    width: 52%;
+}
+.list6__author{
+    /* border: 1px solid blueviolet; */
+    width: 21%;
+}
+.list6__top{
+    /* border: 10px solid green; */
+    height: 165px;
+}
+.list6__down{
+    /* border: 1px solid cyan; */
+    height:1200px;
+    /* display: flex; */
+}
+.list6__info{
+    display: flex;
+}
+.list6__down__left{
+    /* border: 1px solid black; */
+    width: 25%;
+    margin-left: 30px;
+    height: 855px;
+}
+.list6__down__right{
+/* border: 1px solid green; */
+width: 70%;
+margin-top: 55px;
+height: 800px;
+}
+.sikvel{
+    /* border: 1px solid red; */
+    height: 345px;
+}
+.sikvel__info{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 300px;
+    margin-left: 20px;
+
+}
+.sikvel__info p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.sikvel__info img{
+    margin-top: 10px;
+}
+#sikvel__p{
+    font-size: 15px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    margin-top: -5px;
+}
+#sikvel__p2{
+    font-size: 15px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    margin-top: -15px;
+}
+#sikvel__p3{
+    font-size: 13px;
+    color: rgb(112, 110, 110);
+    margin-top: -7px;
+}
+.author__top{
+    /* border: 1px solid red; */
+    height: 220px;
+}
+.author__down1{
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.author__down2{
+    /* border: 1px solid rgb(129, 41, 212); */
+    height: 184px;
+   display: flex;
+    flex-direction: column;
+}
+.author__down2 a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+    margin-left: 30px;
+    margin-top: 4.2px;
+    font-size: 13px;
+}
+.popcorn{
+    /* border: 1px solid red;   */
+    width: 120px;
+    height: 120px;
+    margin-left: 35px;
+    
+}
+.popcorn img{
+    width: 120px;
+    height: 120px;
+}
+.list6__down__left p{
+    color: grey;
+    font-size: 14px;
+    margin-top: 17.9px;
+    margin-left: -5px;
+}
+#ofilme{
+    color: black;
+    font-size: 22px;
+    font-family: 'Arial';
+    margin-top: 30px;
+}
+.list6__down__right p{
+    margin-top: 18.5px;
+    color: rgb(31, 30, 30);
+    font-size: 13.8px;
+}
+.aquaman img{
+    width: 300px;
+    margin-top: 5px;
+
+} 
+.list6__top h2{
+    font-size: 45px;
+    margin-left: 20px;
+}  
+.list6__top p{
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 13px;
+    color: rgb(112, 110, 110);
+}
+#smotret{
+    margin-left: 20px;
+    background: rgb(241, 240, 240);
+    margin-top: 10px;
+    color: black;
+    height: 50px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.smotret a:hover{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: black;
+} 
+#tochka{
+    margin-left: 8px;
+    background: rgb(241, 240, 240);
+    padding-bottom: 10px;
+    color: black;
+}
+.tochka{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: black;  
+}
+.zona1{
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    margin-top: 8px;
+}
+.list6__top a{
+    color: black;
+    text-decoration: none;
+}
+.author__down1 p{
+    font-size: 16px;
+    margin-left: 30px; 
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.author__down2 p{
+    font-size: 16;
+    margin-left: 30px;
+}
+#aktyor{
+    font-size: 15px;
+    color: rgb(233, 87, 87);
+    margin-left: 30px;
+}
+.author__down1 a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    font-size: 13px;
+    margin-top: 4.2px;
+    font-family: 'Segoe UI', Tahoma, Arial, Verdana, sans-serif;
+}
+#six{
+    font-size: 32px;
+    color: grey;
+    margin-top: 15px;
+    font-weight: 700px;
+    font-family: Graphik Kinopoisk LC Web,Tahoma,Arial,Verdana,sans-serif;
+}
+.author__top p{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.author__top a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+#sakson{
+    color: rgb(233, 87, 87);
+    font-size: 15px;
+    margin-top: 0px;
+}
+.author__top li{
+    /* border: 1px solid black; */
+    list-style: none;
+    background: rgb(241, 240, 240);
+    border-radius: 50px;
+    width: 184px;
+    margin-left: 30px;
+    margin-top: 12px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#baho{
+    margin-top: 0px;
+    color: rgba(0,0,0,.6);
+}
+#recenziya{
+    margin-top: 17px;
+    margin-left: 32px;
+    font-size: 14px;
+    color: rgba(0,0,0,.6);
+}
+#plus{
+    /* border: 1px solid white; */
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 109px;
+    min-width: 109px;
+    height: 40px;
+    border-radius: 100px;
+    text-align: center;
+    background: linear-gradient(90deg,#ff5c4d,#eb469f 26.56%,#8341ef 75%,#3f68f9);
+    font-weight: 600;
+    line-height: 14px;
+}
+#kirish{
+    color: rgb(197, 186, 186);
+    text-decoration: none;
+    margin-left: 20px;
+}
+#kirish:hover{
+    color: white;
+}
+.vozrast{
+    border: 1px solid  rgba(51,51,51,.9);
+    font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgba(51,51,51,.9);
+    margin-top: -10px;
+}
+.pg{
+    border: 1px solid  rgba(51,51,51,.9);
+    font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgba(51,51,51,.9);
+    margin-top: -10px;
+}
+#time{
+    color: grey;
+    
+}
+.year{
+    margin-top: 100px;
+}
+.chislo{
+    color: grey;
+    font-size: 13px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+.treyler{
+    font-size: 15px;
+    margin-left: 6px;
+}
+.papka{
+    /* border: 1px solid rgb(143, 139, 139); */
+    width: 300px;
+    height: 38px;
+    margin-top: 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(223, 222, 222);
+}
+.navbar__list6 a{
+    text-decoration: none;
+    color: black;
+}
+.aquaman a:hover{
+    width: 300px;
+    height: 50px;
+    background: rgb(199, 192, 192);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.seti{
+    /* border: 1px solid black; */
+    height: 100px;
+    margin-top: 400px;
+    margin-top: 570px;
+}
+.seti img{
+    width: 50px;
+    height: 50px;
+}
+#weka{
+    margin-left: 70px;
+}
